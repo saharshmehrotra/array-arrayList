@@ -33,3 +33,19 @@ class ArrayLists {
         System.out.println("Array (Converted from ArrayList): " + Arrays.toString(languagesArray));
     }
 }
+
+### Convert Array to ArrayList
+```java
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+class ArrayLists {
+    public static void main(String[] args) {
+        String[] array = {"Java", "Python", "C"};
+
+        // Convert array to ArrayList
+        List<String> arrayToArrayList = new ArrayList<>(Arrays.asList(array));
+        System.out.println("ArrayList (Converted from Array): " + arrayToArrayList);
+    }
+}
