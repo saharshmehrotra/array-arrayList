@@ -27,3 +27,10 @@ languagesList.add("JavaScript");
 String[] languagesArray = new String[languagesList.size()];
 languagesList.toArray(languagesArray);
 System.out.println("Array (Converted from ArrayList): " + Arrays.toString(languagesArray));
+
+String[] array = {"Java", "Python", "C"};
+
+// Convert array to ArrayList
+List<String> arrayToArrayList = new ArrayList<>(Arrays.asList(array));
+System.out.println("ArrayList (Converted from Array): " + arrayToArrayList);
+
