@@ -5,8 +5,7 @@ This Java program demonstrates how to convert between ArrayList and Array in Jav
 ## Table of Contents
 - [Introduction](#introduction)
 - [Examples](#examples)
-    - [Convert ArrayList to Array](#convert-arraylist-to-array)
-    - [Convert Array to ArrayList](#convert-array-to-arraylist)
+    - [Convert ArrayList to Array and vice versa](#convert-arraylist-to-array)
 - [How to Run](#how-to-run)
 - [License](#license)
 
@@ -15,7 +14,7 @@ In Java, the ArrayList class is a part of the Java Collections Framework and pro
 
 ## Examples
 
-### Convert ArrayList to Array
+### Convert ArrayList to Array and vice versa
 ```java
 import java.util.ArrayList;
 import java.util.Arrays;
